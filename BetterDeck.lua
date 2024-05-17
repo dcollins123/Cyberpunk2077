@@ -33,7 +33,6 @@ if TweakDB:GetRecord("Items.SpreadingRangeIncreaseAbility200_Modded") == nil the
   TweakDB:SetFlat("Items.SpreadingRangeIncreaseAbility200_Modded_inline1.floatValues", {200.000000}) --TooltipText
 end
 
-
 if TweakDB:GetRecord("Items.IncreaseDurationOfCombatQuickhacks_Modded") == nil then --If the modded value is not found, make it.
   TweakDB:CloneRecord("Items.IncreaseDurationOfCombatQuickhacks_Modded", "Items.IncreaseDurationOfCombatQuickhacks") --This part seems to only affect QH DoTs, I can't figure out where the other debuffs are stored.
   TweakDB:CloneRecord("Items.IncreaseDurationOfCombatQuickhacks_Modded_inline0", "Items.IncreaseDurationOfCombatQuickhacks_inline0")
