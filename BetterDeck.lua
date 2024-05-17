@@ -23,7 +23,6 @@ if TweakDB:GetRecord("Items.UltimateCostAbility_Modded") == nil then --If the mo
   TweakDB:SetFlat("Items.UltimateCostAbility_Modded_inline1.intValues", {3}) --TooltipText
 end
 
-
 if TweakDB:GetRecord("Items.SpreadingRangeIncreaseAbility200_Modded") == nil then --If the modded value is not found, make it.
   TweakDB:CloneRecord("Items.SpreadingRangeIncreaseAbility200_Modded", "Items.SpreadingRangeIncreaseAbility")
   TweakDB:CloneRecord("Items.SpreadingRangeIncreaseAbility200_Modded_inline0", "Items.SpreadingRangeIncreaseAbility_inline0")
