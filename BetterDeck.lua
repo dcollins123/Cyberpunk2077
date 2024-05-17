@@ -11,7 +11,6 @@ if TweakDB:GetRecord("Items.StealthHacksCostAbility_Modded") == nil then --If th
   TweakDB:SetFlat("Items.StealthHacksCostAbility_Modded_inline1.floatValues", {4.000000}) --TooltipText
 end
 
-
 if TweakDB:GetRecord("Items.UltimateCostAbility_Modded") == nil then --If the modded value is not found, make it.
   TweakDB:CloneRecord("Items.UltimateCostAbility_Modded", "Items.UltimateCostAbility03")
   TweakDB:CloneRecord("Items.UltimateCostAbility_Modded_inline0", "Items.UltimateCostAbility03_inline0")
