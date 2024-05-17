@@ -48,7 +48,6 @@ if TweakDB:GetRecord("Items.IncreaseDurationOfCombatQuickhacks_Modded") == nil t
   TweakDB:SetFlat("Items.IncreaseDurationOfCombatQuickhacks_Modded_inline3.floatValues", {500.000000}) --TooltipText
 end
 
-
 if TweakDB:GetRecord("Items.IncreaseHackSpreadingOnTargetsAbility_Modded") == nil then --If the modded value is not found, make it.
   TweakDB:CloneRecord("Items.IncreaseHackSpreadingOnTargetsAbility_Modded", "Items.IncreaseHackSpreadingOnTargetsAbility")
   TweakDB:CloneRecord("Items.IncreaseHackSpreadingOnTargetsAbility_Modded_inline0", "Items.IncreaseHackSpreadingOnTargetsAbility_inline0")
